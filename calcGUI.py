@@ -149,7 +149,7 @@ class Calculator(Frame):
         """
         Creates the widgets to be used in the grid.
         :return: None
-        """
+        """   
         self.sin_bttn = Button(self, text="sin", width=20, height=3, command=lambda: self.add_chr('sin'))
         self.sin_bttn.grid(row=1, column=6, columnspan=2)
         
